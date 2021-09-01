@@ -1,10 +1,10 @@
 import React from "react"
-import MainHeader from "../components/MainHeader"
+import DrumPads from "../components/DrumPads"
 
 export default function Home() {
 	return (
 		<div>
-			<MainHeader />
+			<DrumPads />
 		</div>
 	)
 }

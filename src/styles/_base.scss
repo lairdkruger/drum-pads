@@ -2,18 +2,21 @@
 
 // Box sizing
 html {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: white;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
 }
 
 // Links
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
