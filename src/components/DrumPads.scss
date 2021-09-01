@@ -1,0 +1,30 @@
+.drum-pads-wrapper {
+	position: fixed;
+	height: 100vh;
+	width: 100vh;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 8px;
+}
+
+.drum-pad {
+	width: 50%;
+	height: 50%;
+	background-color: black;
+	border: white 1px solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&:active:hover {
+		background-color: white;
+		color: black;
+	}
+
+	p {
+		user-select: none;
+	}
+}
