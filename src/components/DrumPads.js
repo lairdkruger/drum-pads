@@ -10,10 +10,10 @@ export default function DrumPads() {
 		const howlInstance = new Howl({
 			src: '../kits/BobAzzam.mp3',
 			sprite: {
-				kick: [0, 1800],
-				snare: [2000, 1800],
-				hat: [4000, 1800],
-				alt: [6000, 1800],
+				kick: [0, 1000],
+				snare: [2000, 1000],
+				hat: [4000, 1000],
+				alt: [6000, 1000],
 			},
 			autoplay: false,
 			loop: false,
